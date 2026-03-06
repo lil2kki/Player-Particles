@@ -1,30 +1,26 @@
 {
-	"geode": "4.4.0",
+	"geode": "5.3.0",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
 	},
 	"early-load": true,
 	"id": "user95401.player_particles",
 	"name": "Player Particles",
-	"version": "v1.4.0-beta.6",
-	"developer": "user95401",
+	"version": "v1.4.0-beta.7",
+	"developer": "lil2kki",
 	"description": "customize player particles for drag, land etc",
 	"tags": [ "gameplay", "offline", "enhancement", "interface", "utility", "customization", "developer" ],
 	"links": {
 		"community": "https://discord.gg/6SxAbk3bTA",
-		"homepage": "https://t.me/user95401_channel",
-		"source": "https://github.com/user95401/Player-Particles"
+		"homepage": "https://t.me/lil2kki_ch",
+		"source": "https://github.com/lil2kki/Player-Particles"
 	},
-	"dependencies": [
-		{
-			"id": "geode.node-ids",
-			"version": ">=v1.17.0-alpha.1",
-			"importance": "required"
-		}
-	],
+	"dependencies": {
+		"geode.node-ids": ">=v1.17.0-alpha.1"
+	},
 	"settings": {
 		"Force Initial Gravity": {
 			"name": "Force Initial Gravity",
